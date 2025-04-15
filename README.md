@@ -70,7 +70,7 @@ Compresses the Elias Gamma bitstream further by assigning shorter binary codes t
 
 - Elias Gamma only supports non-negative values → delta values must be offset
 - Fixed chunking (e.g., 9-bit) can misalign Elias Gamma codes if not handled carefully
-- Not optimal for large-scale data like `comma.ai` — better alternatives: Bitpacking or Golomb coding
+- Not optimal for large-scale data— better alternatives: Bitpacking or Golomb coding
 
 ---
 
